@@ -20,7 +20,7 @@ class MyLinkedListTest {
 
     @Test
     void length() {
-        Assertions.assertEquals(7,list.length);
+        Assertions.assertEquals(6,list.length);
     }
 
     @Test
@@ -32,7 +32,7 @@ class MyLinkedListTest {
     @Test
     void insert() {
         list.insert('o',2);
-        Assertions.assertEquals('o',list.get(1));
+        Assertions.assertEquals('o',list.get(2));
     }
 
     @Test
@@ -46,7 +46,7 @@ class MyLinkedListTest {
         list.append('c');
         list.append('c');
         list.deleteAll('c');
-        Assertions.assertEquals(7,list.length());
+        Assertions.assertEquals(6,list.length());
     }
 
     @Test
