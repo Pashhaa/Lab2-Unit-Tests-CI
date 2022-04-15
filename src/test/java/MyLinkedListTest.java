@@ -20,13 +20,13 @@ class MyLinkedListTest {
 
     @Test
     void length() {
-        Assertions.assertEquals(6,list.length);
+        Assertions.assertEquals(7,list.length);
     }
 
     @Test
     void append() {
         list.append('8');
-        Assertions.assertEquals(7,list.length);
+        Assertions.assertEquals(8,list.length);
     }
 
     @Test
