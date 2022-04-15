@@ -10,7 +10,6 @@ class MyLinkedListTest {
     MyLinkedList newList = new MyLinkedList();
     String str = "abcdefghjklmnop";
 
-
     @BeforeEach
     void start() {
         for (int i = 0; i < 7; i++) {
@@ -27,13 +26,13 @@ class MyLinkedListTest {
     @Test
     void append() {
         list.append('8');
-        Assertions.assertEquals(8,list.length);
+        Assertions.assertEquals(7,list.length);
     }
 
     @Test
     void insert() {
         list.insert('o',2);
-        Assertions.assertEquals('o',list.get(2));
+        Assertions.assertEquals('o',list.get(1));
     }
 
     @Test
