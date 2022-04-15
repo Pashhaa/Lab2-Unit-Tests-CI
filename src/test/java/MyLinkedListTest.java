@@ -46,7 +46,7 @@ class MyLinkedListTest {
         list.append('c');
         list.append('c');
         list.deleteAll('c');
-        Assertions.assertEquals(6,list.length());
+        Assertions.assertEquals(7,list.length());
     }
 
     @Test
